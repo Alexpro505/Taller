@@ -1,0 +1,52 @@
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    h1{
+        font-size: 2.5em;
+    }
+    h2{
+        font-size: 2.2em;
+    }
+    h3{
+        font-size: 1.5em;
+    }
+  
+    body{
+    }
+    
+    header{
+    }
+
+    header .navbar {
+        display: flex;
+        margin-right: 0px;
+        background-color: #333;
+        width: 100%;
+            }
+        
+    header .navbar a {
+        float: left;
+        display: flex;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+            }    
+
+     header .navbar a:hover{
+        background: #ddd;
+        color: black;
+            }
+
+    section {
+
+    }
+
+    section img{
+        max-width: 800px;
+        margin-left: 12px;
+        align-items: center;
+
+    }
