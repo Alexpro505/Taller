@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Sobre Nosotros</title>
+    <style>
+        .navbar {
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+            }
+        
+        .navbar a {
+        float: left;
+        display: flex;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+            }    
+        .navbar a:hover {
+        background: #ddd;
+        color: black;
+            }
+        
+        .main {
+        padding: 16px;
+        margin-top: 30px;
+        height: 1500px;
+            }
+        form{
+            text-align: center;
+        }
+        .warning {
+          background-color: #ffeb3b;
+          border-left: 6px solid #ffeb3b;
+          color: rgb(0, 0, 0);
+        }
+        </style>
+</head>
+        <body>
+        <div class="navbar">
+            <a href="./../index.html" style="font-family:anton,sans-serif;">Agrimex</a>
+            <a href="./Valoraciones.html">Valoraciones</a>
+            <a href="./imagenes.html">Imagenes</a>
+            <a href="./Nosotros.html">Sobre Nosotros</a>
+            <a href="./soporte.html">Soporte</a>
+        </div>
+        <br>
+        <br>
+</head>
+  <body>
+    <header>
+      <h1>Valoracion del taller</h1>
+    </header>
+    <main>
+          <h3>Agrega tu valoración</h3>
+          <form>
+            <label for="name">Nombre:</label>
+            <input type="text" id="name" name="name">
+            <label for="rating">Valoración:</label>
+            <select id="rating" name="rating">
+              <option value="5">&#9733;&#9733;&#9733;&#9733;&#9733;</option>
+              <option value="4">&#9733;&#9733;&#9733;&#9733;&#9734;</option>
+              <option value="3">&#9733;&#9733;&#9733;&#9734;&#9734;</option>
+              <option value="2">&#9733;&#9733;&#9734;&#9734;&#9734;</option>
+              <option value="1">&#9733;&#9734;&#9734;&#9734;&#9734;</option>
+            </select>
+            <label for="review">Opinión:</label>
+            <textarea id="review" name="review"></textarea>
+            <button type="submit">Enviar</button>
+          </form>
+        </div>
+        <div class="reviews">
+          <h3>Valoraciones de los clientes</h3>
+          <ul>
+            <li>
+              <h4>Juan Pérez</h4>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>Este Taller mecanico es lo mejor que hay en la categoria que hay en la misma</p>
+            </li>
+            <li>
+              <h4>María González</h4>
+              <div class="rating">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+              <p>Este Taller mecanico todo correcto y me alegro que sea confliable </p>
+            </li>
+          </ul>
+        </div>
+    </main>
+  </body>
+</body>
+</html>
