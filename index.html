@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<html>
+  <head>
+    <title>Taller Mecánico Agrimex</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        .navbar {
+        overflow: hidden;
+        background-color: #333;
+        position: fixed;
+        top: 0;
+        width: 100%;
+            }
+        
+        .navbar a {
+        float: left;
+        display: flex;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        justify-content: space-between;
+            }    
+        .navbar a:hover {
+        background: #ddd;
+        color: black;
+            }
+        
+        .main {
+        padding: 16px;
+        margin-top: 30px;
+        height: 1500px;
+            }
+        form{
+            text-align: center;
+        }
+        .warning {
+          background-color: #ffeb3b;
+          border-left: 6px solid #ffeb3b;
+          color: rgb(0, 0, 0);
+        }
+        </style>
+</head>
+        <body>
+        <div class="navbar">
+            <a href="./../index.html" style="font-family:anton,sans-serif;">Agrimex</a>
+            <a href="./portafolio/Valoraciones.html">Valoraciones</a>
+            <a href="./portafolio/imagenes.html">Imagenes</a>
+            <a href="./portafolio/Nosotros.html">Sobre Nosotros</a>
+            <a href="./portafolio/soporte.html">Soporte</a>
+        </div>
+        <br>
+        <br>
+</head>
+  <body>
+        <header>
+            <h1>Taller Mecánico Agrimex</h1>
+        </header>
+    <main>
+      <section id="services">
+        <h2>Servicios</h2>
+        <div class="service-card">
+          <img src="./img/syrsa-mentemiento-reparacion-vehiculos.jpg" alt="Mantenimiento y reparación de vehículos" style="max-width: 300 px; ">
+          <h3>Mantenimiento y reparación de vehículos</h3>
+          <p>Ofrecemos servicios de mantenimiento y reparación para todo tipo de vehículos, desde cambios de aceite hasta reparaciones más complejas.</p>
+        </div>
+        <div class="service-card">
+          <img src="./img/curso-online-profesional-de-mantenimiento-de-sistemas-electricos-y-electronicos-de-vehiculos_amp_primaria_1_1560503083.jpg" alt="Reparación de sistemas eléctricos y electrónicos" style="display: flex; max-width: 800px;">
+          <h3>Reparación de sistemas eléctricos y electrónicos</h3>
+          <p>Contamos con técnicos especializados para solucionar problemas eléctricos y electrónicos en tu vehículo.</p>
+        </div>
+        <div class="service-card">
+          <h3>Inspección y reparación de frenos</h3>
+          <p>Realizamos inspecciones y reparaciones de frenos para asegurarnos de que tu vehículo tenga un buen rendimiento en la carretera.</p>
+        </div>
+      </section>
+      <section id="contact">
+        <h2>Contacto</h2>
+        <form>
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name">
+          <label for="email">Correo electrónico:</label>
+          <input type="email" id="email" name="email">
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message"></textarea>
+        </form>
+        </section>
+    </main>
+    </body>
+</html>

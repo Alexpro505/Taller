@@ -1,0 +1,30 @@
+*{
+
+}
+@media screen and (max-width:800px){
+    .navbar a{
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 80 px;
+    }
+}
+@media screen and (max-width:800px){
+    .navbar {
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 80 px;
+    }
+}
+@media screen and (max-width:800px){
+    .warning {
+        flex-direction: column;
+    }
+
+}
+@media screen and (max-width:800px){
+    .main{
+        flex-direction: column;
+        justify-content: space-evenly;
+        width: 80px;
+    }
+}
